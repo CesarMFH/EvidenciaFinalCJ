@@ -4,17 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="802094c3-c1ee-4e1f-961a-b830ab5986b8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EvidenciaFinalConsultorio.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Alta_Doc.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Alta_Doc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DAO/Doctores_CRUD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entidades/Doctores.java" afterDir="false" />
+    <list default="true" id="802094c3-c1ee-4e1f-961a-b830ab5986b8" name="Changes" comment="AVANCE EvidenciaFinalConsultorio">
+      <change afterPath="$PROJECT_DIR$/src/DAO/Citas_CRUD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DAO/Pacientes_CRUD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entidades/Citas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entidades/Pacientes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ventanas_GUI/Alta_Citas.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ventanas_GUI/Alta_Citas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ventanas_GUI/Alta_Doc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ventanas_GUI/Alta_Pac.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ventanas_GUI/Alta_Pac.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ventanas_GUI/Login.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ventanas_GUI/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ventanas_GUI/Menu.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ventanas_GUI/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Alta_Doc.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ventanas_GUI/Alta_Doc.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Alta_Doc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DAO/Doctores_CRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAO/Doctores_CRUD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entidades/Doctores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entidades/Doctores.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,22 +37,37 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2Z0vZ984aPkIV6otfUXAbeXxXcf" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/CodigosJava/demoProyecto",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/CodigosJava/EvidenciaJavaF-master",
     "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CodigosJava\EvidenciaFinalConsultorio\src\Ventanas_GUI" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -54,6 +77,27 @@
       <option name="presentableId" value="Default" />
       <updated>1701571865088</updated>
     </task>
+    <task id="LOCAL-00001" summary="AVANCE EvidenciaFinalConsultorio">
+      <option name="closed" value="true" />
+      <created>1701581947671</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701581947671</updated>
+    </task>
+    <task id="LOCAL-00002" summary="AVANCE EvidenciaFinalConsultorio">
+      <option name="closed" value="true" />
+      <created>1701581982070</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701581982070</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="AVANCE EvidenciaFinalConsultorio" />
+    <option name="LAST_COMMIT_MESSAGE" value="AVANCE EvidenciaFinalConsultorio" />
   </component>
 </project>

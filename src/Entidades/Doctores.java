@@ -8,7 +8,29 @@ public class Doctores implements Serializable {
     String ApePat;
     String ApeMat;
     String Nombres;
+    String Especialidad;
+    String Sexo;
+    String Telefono;
+    String Email;
     Date FechaNacimiento;
+
+    public String getEmail() {return Email;}
+
+    public void setEmail(String email) {this.Email = email;}
+
+    public String getEspecialidad() {return Especialidad;}
+
+    public void setEspecialidad(String especialidad) {this.Especialidad = especialidad;}
+
+    public String getSexo() {return Sexo;}
+
+    public void setSexo(String sexo) {this.Sexo = sexo;}
+
+    public String getTelefono() {return Telefono;}
+
+    public void setTelefono(String telefono) {this.Telefono = telefono;}
+
+
     public Date getFechaNacimiento() {return FechaNacimiento;}
 
     public void setFechaNacimiento(Date FechaNacimiento) {this.FechaNacimiento = FechaNacimiento;}
